@@ -234,7 +234,51 @@
 
 					</div>
 
-					
+					<div class="d-md-flex flex-md-nowrap h-100">
+						<dl class="shop_attributes"><dt class="jstitle spacing">My Role & Tasks</dt>
+							<section class="summary entry-summary wysiwig">
+								<p> &bull; User Research &bull; Wireframing &bull; UX/UI Design</p>
+							</section>
+							<dl class="shop_attributes summary"><dt class="jstitle">User Personas</dt>
+								<section class="summary entry-summary wysiwig">
+									<img src="../../../wp-content/uploads/2018/05/personas.png" alt="" width="80" height="100"></img>
+									<p class="move"> Daniel is a 30 year old Business Analyst who carpools daily in Los Angeles. He would like to maintain his carbon footprint.
+									</p>
+								</section>
+								<section class="summary">
+									<strong>Goals / Needs</strong>
+									<p>
+										<ul>
+											<li> He would like to reduce the amount of CO2 by carpooling.</li>
+										</ul>
+									</p>
+									<strong>Pain Points</strong>
+									<ul>
+										<li>On the go with no time in the morning.</li>
+										<li> Needs to sync his carpool with progress.</li>
+									</ul>
+									</p>
+								</section>
+					</div>
+
+					<div class="d-md-flex flex-md-nowrap h-100">
+						<dl class="shop_attributes"><dt class="jstitle">Job Stories</dt>
+							<section class="summary entry-summary wysiwig">
+								<p> I used the Job Stories framework to be empathetic of the users and put myself in their shoes to recognize their desired solutions.
+								</p>
+								<ul>
+									<li> We carpool every day to work and would like to help lower and maintain our CO2 emissions with other people.
+									</li>
+									<br>
+									<li>I decided to check out an app that would encourage me to stay on track to reduce my carbon footprint. I genuinely don’t know how much energy I dissipate per day.
+									</li>
+									<br>
+									<li>Saving the environment with the ability to receive rewards is important to me.
+									</li>
+								</ul>
+							</section>
+					</div>
+
 					<div class="d-md-flex flex-md-nowrap h-100">
 						<dl class="shop_attributes"><dt class="jstitle">Defining User Story Mapping</dt>
 							<section class="shop_attributes">
@@ -381,24 +425,25 @@
 				<svg class="icon icon-caret icon-caret-right align-middle ml-05" role="img">
 					<use xlink:href="/wp-content/themes/eo/assets/svg/icons.svg#caret" /></svg></a></div>
 	</aside>
+
 	</noscript>
 	<script type="text/javascript">
 		var c = document.body.className;
-		c = c.replace(/ /, '');
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 		document.body.className = c;
 	</script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
 		var wc_add_to_cart_params = {
-			"ajax_url": "\/\/,
-			"wc_ajax_url": "\/\/",
-			"i18n_view_cart": ,
-			"cart_url": \ /\/\/\/\/,
+			"ajax_url": "\/wp-admin\/admin-ajax.php",
+			"wc_ajax_url": "\/fr\/?wc-ajax=%%endpoint%%",
+			"i18n_view_cart": "Voir le panier",
+			"cart_url": "https:\/\/www.keus-store.com\/fr\/panier\/",
 			"is_cart": "",
 			"cart_redirect_after_add": "no"
 		}; /* ]]> */
 	</script>
-	<script type='text/javascript' src=''></script>
+	<script type='text/javascript' src='../../../wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min-2.70.js'></script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
 		var woocommerce_params = {
@@ -406,6 +451,7 @@
 			"wc_ajax_url": "\/fr\/?wc-ajax=%%endpoint%%"
 		}; /* ]]> */
 	</script>
+	<script type='text/javascript' src='../../../wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min-3.4.4.js'></script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
 		var wc_cart_fragments_params = {
@@ -415,20 +461,21 @@
 			"fragment_name": "wc_fragments_20f6c421b61d6012343fe8b6fbd9e2b1"
 		}; /* ]]> */
 	</script>
+	<script type='text/javascript' src='../../../wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min-3.4.4.js'></script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
 		var woo_variation_swatches_options = {
 			"is_product_page": ""
 		}; /* ]]> */
 	</script>
-	<script type='text/javascript' src=''></script>
-	<script type='text/javascript' Cache-Control: "public" src='../../../wp-content/themes/eo/assets/scripts/build.min.js'></script>
+	<script type='text/javascript' src='../../../wp-content/cache/busting/1/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min-1.0.34.js'></script>
+	<script type='text/javascript' src='../../../wp-content/themes/keus/assets/scripts/build.min.js'></script>
 	<script>
 		(function(w, d) {
 			var b = d.getElementsByTagName("body")[0];
 			var s = d.createElement("script");
 			s.async = true;
-			s.src = !("IntersectionObserver" in w) ? "/wp-content/plugins/wp-rocket/inc/front/js/lazyload-8.12.min.js" : "";
+			s.src = !("IntersectionObserver" in w) ? "https://www.keus-store.com/wp-content/plugins/wp-rocket/inc/front/js/lazyload-8.12.min.js" : "https://www.keus-store.com/wp-content/plugins/wp-rocket/inc/front/js/lazyload-10.12.min.js";
 			w.lazyLoadOptions = {
 				elements_selector: "img",
 				data_src: "lazy-src",
