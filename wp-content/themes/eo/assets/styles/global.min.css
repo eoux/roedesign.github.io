@@ -78,11 +78,7 @@ body {
   background-image: url('https://eoux.github.io/wp-content/uploads/2018/06/blue-arrow.svg');
   background-repeat: no-repeat;
   background-size: contain;
-<<<<<<< HEAD
   animation-duration: 3s;
-=======
-  animation-duration: 2s;
->>>>>>> 78e9537de4a12d97f5d38d1de096500387c6bac9
   animation-iteration-count: infinite;
   margin: 0 auto 0 auto;
   transform-origin: bottom;
@@ -99,11 +95,7 @@ body {
   }
 
   50% {
-<<<<<<< HEAD
     transform: translateY(-9px);
-=======
-    transform: translateY(-10px);
->>>>>>> 78e9537de4a12d97f5d38d1de096500387c6bac9
   }
 
   100% {
@@ -8140,11 +8132,7 @@ a:link {
   }
 
   .single-product-container .product_title {
-<<<<<<< HEAD
     margin-bottom: 1rem
-=======
-    margin-bottom: 7rem
->>>>>>> 78e9537de4a12d97f5d38d1de096500387c6bac9
   }
 
   .single-product-container .additional_information {
