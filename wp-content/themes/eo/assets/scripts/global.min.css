@@ -5064,7 +5064,7 @@ table.variations label {
 	padding: 4px;
 	cursor: pointer;
 	background: #fff;
-	border-radius: 50%;
+	border-radius: 32px;
 	box-shadow: 0 0 0 2px rgba(0, 0, 255, 0);
 	transition: .3s ease
 }
